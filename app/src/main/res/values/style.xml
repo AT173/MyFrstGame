@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="orangeText">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:shadowColor">#FF8A00</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:textColor">#FF7A00</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-10</item>
+    </style>
+    <style name="greenText">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:shadowColor">#26FF00</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:textColor">#11FF00</item>
+    </style>
+</resources>

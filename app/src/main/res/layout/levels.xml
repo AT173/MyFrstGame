@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/levelsTextView"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/levels"
+        android:textAppearance="@style/orangeText"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/level1Button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTextView"
+        app:srcCompat="@drawable/clear_orange_button" />
+
+    <TextView
+            android:text="@string/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level1TextView"
+            android:textSize="40sp"
+            android:textAppearance="@style/orangeText"
+            app:layout_constraintEnd_toEndOf="@+id/level1Button"
+            app:layout_constraintStart_toStartOf="@+id/level1Button"
+            app:layout_constraintTop_toTopOf="@+id/level1Button"
+            app:layout_constraintBottom_toBottomOf="@+id/level1Button" />
+
+    <ImageView
+        android:id="@+id/level2Button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/level1Button"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTextView"
+        app:srcCompat="@drawable/clear_orange_button" />
+
+    <TextView
+            android:text="@string/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level2TextView"
+            android:textSize="40sp"
+            android:textAppearance="@style/orangeText"
+            app:layout_constraintEnd_toEndOf="@+id/level2Button"
+            app:layout_constraintStart_toStartOf="@+id/level2Button"
+            app:layout_constraintTop_toTopOf="@+id/level2Button"
+            app:layout_constraintBottom_toBottomOf="@+id/level2Button" />
+
+    <ImageView
+        android:id="@+id/level3Button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/level2Button"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTextView"
+        app:srcCompat="@drawable/clear_orange_button" />
+
+    <TextView
+            android:text="@string/number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level3TextView"
+            android:textSize="40sp"
+            android:textAppearance="@style/orangeText"
+            app:layout_constraintEnd_toEndOf="@+id/level3Button"
+            app:layout_constraintStart_toStartOf="@+id/level3Button"
+            app:layout_constraintTop_toTopOf="@+id/level3Button"
+            app:layout_constraintBottom_toBottomOf="@+id/level3Button" />
+
+    <ImageView
+        android:id="@+id/level4Button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/level1Button"
+        app:layout_constraintTop_toBottomOf="@+id/level2Button"
+        app:srcCompat="@drawable/clear_orange_button" />
+
+    <TextView
+            android:text="@string/number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level4TextView"
+            android:textSize="40sp"
+            android:textAppearance="@style/orangeText"
+            app:layout_constraintEnd_toEndOf="@+id/level4Button"
+            app:layout_constraintStart_toStartOf="@+id/level4Button"
+            app:layout_constraintTop_toTopOf="@+id/level4Button"
+            app:layout_constraintBottom_toBottomOf="@+id/level4Button" />
+
+    <ImageView
+        android:id="@+id/level5Button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/level4Button"
+        app:layout_constraintTop_toBottomOf="@+id/level2Button"
+        app:srcCompat="@drawable/clear_orange_button" />
+
+    <TextView
+            android:text="@string/number5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level5TextView"
+            android:textSize="40sp"
+            android:textAppearance="@style/orangeText"
+            app:layout_constraintEnd_toEndOf="@+id/level5Button"
+            app:layout_constraintStart_toStartOf="@+id/level5Button"
+            app:layout_constraintTop_toTopOf="@+id/level5Button"
+            app:layout_constraintBottom_toBottomOf="@+id/level5Button" />
+
+    <TextView
+        android:id="@+id/toBeContinuedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/toBeContinued"
+        android:textAppearance="@style/orangeText"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTextView" />
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/red_button"
+            android:id="@+id/backButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toBeContinuedTextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="50dp" />
+
+    <TextView
+            android:text="@string/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButtonTextView"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:shadowColor="#473C00"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="7"
+            app:layout_constraintStart_toStartOf="@+id/backButton"
+            app:layout_constraintEnd_toEndOf="@+id/backButton"
+            app:layout_constraintTop_toTopOf="@+id/backButton"
+            app:layout_constraintBottom_toBottomOf="@+id/backButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

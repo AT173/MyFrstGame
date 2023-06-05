@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212">
+
+
+  <TextView
+          android:text="@string/number69"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/number69TextViewLvl5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintBottom_toTopOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintTop_toTopOf="parent"
+          android:textAppearance="@style/orangeText"
+          android:textSize="40sp" />
+
+  <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/main_of_calc"
+          android:id="@+id/mainOfCalcLvl5"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:layout_marginTop="50dp" />
+
+  <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/screen_of_calc"
+          android:id="@+id/screenOfCalcLvl5"
+          app:layout_constraintStart_toStartOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintTop_toTopOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/mainOfCalcLvl5"
+          android:layout_marginBottom="300dp" />
+
+  <TextView
+          android:text="0"
+          android:layout_width="207dp"
+          android:layout_height="55dp"
+          android:id="@+id/screenTextViewLvl5"
+          app:layout_constraintStart_toStartOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintTop_toTopOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/screenOfCalcLvl5"
+          android:textSize="40sp"
+          android:textColor="@color/white"
+          android:textAlignment="textEnd" />
+
+  <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          app:srcCompat="@drawable/orange_button"
+          android:id="@+id/number4ButtonLvl5"
+          app:layout_constraintStart_toStartOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintTop_toBottomOf="@+id/screenOfCalcLvl5"
+          android:layout_marginTop="40dp"
+          android:layout_marginEnd="90dp" />
+
+  <TextView
+          android:text="@string/number4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/number4TextViewLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/number4ButtonLvl5"
+          app:layout_constraintStart_toStartOf="@+id/number4ButtonLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/number4ButtonLvl5"
+          app:layout_constraintTop_toTopOf="@+id/number4ButtonLvl5"
+          android:textSize="30sp"
+          android:textColor="@color/white" />
+
+  <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          app:srcCompat="@drawable/orange_button"
+          android:id="@+id/number9ButtonLvl5"
+          app:layout_constraintStart_toEndOf="@+id/number4ButtonLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl5"
+          app:layout_constraintTop_toBottomOf="@+id/screenOfCalcLvl5"
+          android:layout_marginTop="40dp" />
+
+  <TextView
+          android:text="@string/number9"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/number9TextViewLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/number9ButtonLvl5"
+          app:layout_constraintStart_toStartOf="@+id/number9ButtonLvl5"
+          app:layout_constraintTop_toTopOf="@+id/number9ButtonLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/number9ButtonLvl5"
+          android:textColor="@color/white"
+          android:textSize="30sp" />
+
+  <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          app:srcCompat="@drawable/orange_button"
+          android:id="@+id/number2ButtonLvl5"
+          app:layout_constraintTop_toBottomOf="@+id/number9ButtonLvl5"
+          app:layout_constraintStart_toStartOf="@+id/number4ButtonLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/number9ButtonLvl5"
+          android:layout_marginTop="40dp" />
+
+  <TextView
+          android:text="@string/number6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/number6TextViewLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/number2ButtonLvl5"
+          app:layout_constraintStart_toStartOf="@+id/number2ButtonLvl5"
+          app:layout_constraintTop_toTopOf="@+id/number2ButtonLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/number2ButtonLvl5"
+          android:textSize="30sp"
+          android:textColor="@color/white" />
+
+  <ImageView
+          android:layout_width="100dp"
+          android:layout_height="50dp"
+          app:srcCompat="@drawable/orange_button"
+          android:id="@+id/checkButtonLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintStart_toStartOf="@+id/mainOfCalcLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/mainOfCalcLvl5"
+          android:layout_marginBottom="40dp" />
+
+  <TextView
+          android:text="@string/equals"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/checkButtonTextViewLvl5"
+          app:layout_constraintStart_toStartOf="@+id/checkButtonLvl5"
+          app:layout_constraintEnd_toEndOf="@+id/checkButtonLvl5"
+          app:layout_constraintTop_toTopOf="@+id/checkButtonLvl5"
+          app:layout_constraintBottom_toBottomOf="@+id/checkButtonLvl5"
+          android:textSize="40sp"
+          android:textColor="@color/white" />
+
+  <ImageView
+      android:id="@+id/backButtonLvl5"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginTop="15dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/red_button" />
+
+  <TextView
+      android:id="@+id/backButtonTextViewLvl5"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:text="x"
+      android:textAlignment="center"
+      android:textSize="40sp"
+      app:layout_constraintBottom_toBottomOf="@+id/backButtonLvl5"
+      app:layout_constraintEnd_toEndOf="@+id/backButtonLvl5"
+      app:layout_constraintStart_toStartOf="@+id/backButtonLvl5"
+      app:layout_constraintTop_toTopOf="@+id/backButtonLvl5"
+      app:layout_constraintVertical_bias="0.24" />
+
+  <Chronometer
+      android:id="@+id/chronometerLvl5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:format="%2:%02d"
+      android:textAppearance="@style/orangeText"
+      android:textSize="40sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/mainOfCalcLvl5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

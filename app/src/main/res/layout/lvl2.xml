@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+
+    <TextView
+        android:id="@+id/number33TextView"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="@string/number33"
+        android:textAlignment="center"
+        android:textAppearance="@style/orangeText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainOfCalcLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_of_calc" />
+
+    <ImageView
+        android:id="@+id/screenOfCalcLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintStart_toStartOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintTop_toTopOf="@+id/mainOfCalcLvl2"
+        app:srcCompat="@drawable/screen_of_calc" />
+
+    <TextView
+        android:id="@+id/screenTextViewLvl2"
+        android:layout_width="207dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="5dp"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintTop_toTopOf="@+id/screenOfCalcLvl2" />
+
+    <ImageView
+        android:id="@+id/number8ButtonLvl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintStart_toStartOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintTop_toBottomOf="@+id/screenOfCalcLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/number8TextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number8"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number8ButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/number8ButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/number8ButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/number8ButtonLvl2" />
+
+    <ImageView
+        android:id="@+id/number4ButtonLvl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintStart_toStartOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintTop_toBottomOf="@+id/screenOfCalcLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/number4TextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number4"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number4ButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/number4ButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/number4ButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/number4ButtonLvl2" />
+
+    <ImageView
+        android:id="@+id/number7ButtonLvl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintStart_toStartOf="@+id/screenOfCalcLvl2"
+        app:layout_constraintTop_toBottomOf="@+id/screenOfCalcLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/number7TextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number7"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number7ButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/number7ButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/number7ButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/number7ButtonLvl2" />
+
+    <ImageView
+        android:id="@+id/number3ButtonLvl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/number8ButtonLvl2"
+        app:layout_constraintTop_toBottomOf="@+id/number8ButtonLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/number3TextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number3ButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/number3ButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/number3ButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/number3ButtonLvl2" />
+
+    <ImageView
+        android:id="@+id/number9ButtonLvl2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/number7ButtonLvl2"
+        app:layout_constraintStart_toEndOf="@+id/number3ButtonLvl2"
+        app:layout_constraintTop_toBottomOf="@+id/number7ButtonLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/number9TextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number9"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number9ButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/number9ButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/number9ButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/number9ButtonLvl2" />
+
+    <ImageView
+        android:id="@+id/checkButtonLvl2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/mainOfCalcLvl2"
+        app:layout_constraintStart_toStartOf="@+id/mainOfCalcLvl2"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/checkButtonTextViewLvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equals"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkButtonLvl2"
+        app:layout_constraintEnd_toEndOf="@+id/checkButtonLvl2"
+        app:layout_constraintStart_toStartOf="@+id/checkButtonLvl2"
+        app:layout_constraintTop_toTopOf="@+id/checkButtonLvl2" />
+
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/red_button"
+            android:id="@+id/backButtonLvl2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp" />
+
+    <TextView
+            android:text="x"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/backButtonTextViewLvl2"
+            app:layout_constraintStart_toStartOf="@+id/backButtonLvl2"
+            app:layout_constraintEnd_toEndOf="@+id/backButtonLvl2"
+            app:layout_constraintTop_toTopOf="@+id/backButtonLvl2"
+            app:layout_constraintBottom_toBottomOf="@+id/backButtonLvl2"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            app:layout_constraintVertical_bias="0.24" />
+
+    <Chronometer
+            android:id="@+id/chronometerLvl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:format="%2:%02d"
+            app:layout_constraintTop_toBottomOf="@+id/mainOfCalcLvl2"
+            android:textAppearance="@style/orangeText"
+            android:textSize="40sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

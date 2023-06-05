@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/rulesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/rules"
+        android:textAppearance="@style/orangeText"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/explanationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/explanationRules"
+        android:textAppearance="@style/orangeText"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rulesTextView" />
+
+    <ImageView
+        android:id="@+id/imageForRules"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanationTextView"
+        app:srcCompat="@drawable/for_rules" />
+
+    <TextView
+        android:id="@+id/explanationRules2TextView"
+        android:layout_width="384dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/explanationRules2"
+        android:textAppearance="@style/orangeText"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageForRules" />
+
+    <ImageView
+        android:id="@+id/understandButton"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/green_button" />
+
+    <TextView
+        android:id="@+id/understandTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#534600"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="@string/understand"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/understandButton"
+        app:layout_constraintEnd_toEndOf="@+id/understandButton"
+        app:layout_constraintStart_toStartOf="@+id/understandButton"
+        app:layout_constraintTop_toTopOf="@+id/understandButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

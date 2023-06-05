@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/startButton"
+        android:layout_width="195dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/headInMainMenu"
+        app:srcCompat="@drawable/orange_button" />
+
+    <TextView
+        android:id="@+id/startGameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#473C00"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="7"
+        android:text="@string/startGame"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/startButton"
+        app:layout_constraintEnd_toEndOf="@+id/startButton"
+        app:layout_constraintStart_toStartOf="@+id/startButton"
+        app:layout_constraintTop_toTopOf="@+id/startButton" />
+
+    <ImageView
+        android:id="@+id/quitButton"
+        android:layout_width="117dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startButton"
+        app:srcCompat="@drawable/red_button" />
+
+    <TextView
+        android:id="@+id/headInMainMenu"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:shadowColor="#9D0900"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="7"
+        android:text="@string/head_in_main_menu"
+        android:textAppearance="@style/orangeText"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quitGameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#450501"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
+        android:text="@string/quit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/quitButton"
+        app:layout_constraintEnd_toEndOf="@+id/quitButton"
+        app:layout_constraintStart_toStartOf="@+id/quitButton"
+        app:layout_constraintTop_toTopOf="@+id/quitButton" />
+
+    <ImageView
+        android:id="@+id/rulesMNButton"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/green_button" />
+
+    <TextView
+        android:id="@+id/rulesMNTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rulesMNButton"
+        app:layout_constraintEnd_toEndOf="@+id/rulesMNButton"
+        app:layout_constraintStart_toStartOf="@+id/rulesMNButton"
+        app:layout_constraintTop_toTopOf="@+id/rulesMNButton" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/authorName"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/orangeText"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

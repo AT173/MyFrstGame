@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">0?</string>
+    <string name="head_in_main_menu">0?</string>
+    <string name="startGame">Начать игру</string>
+    <string name="quit">Выйти</string>
+    <string name="rules">Правила</string>
+    <string name="levels">Уровни</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="equals">=</string>
+    <string name="toBeContinued">Продолжение следует...</string>
+    <string name="back">Назад</string>
+    <string name="explanationRules">Будет дан калькулятор с числами
+    и само число над калькулятором</string>
+    <string name="explanationRules2">Задача: составить с числами из калькулятора
+    число, написанное над ним</string>
+    <string name="understand">Понятно</string>
+    <string name="number45">45?</string>
+    <string name="number33">33?</string>
+    <string name="number52">52?</string>
+    <string name="number22">22?</string>
+    <string name="number69">69?</string>
+    <string name="authorName">Автор: @dm1try_173 (Дмитрий Воропаев)</string>
+</resources>
